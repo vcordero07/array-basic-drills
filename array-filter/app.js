@@ -1,13 +1,16 @@
 function shortWords(array) {
   // your code goes here
-  return array.filter(function fiveChar(str){
+  return array.filter(function(str){
     return str.length < 5;
   });
 
 
 }
-
-
+//check this out
+function shortWords(array) {
+  // your code goes here
+  return array.filter(str => str.length < 5);
+}
 
 
 

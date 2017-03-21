@@ -6,7 +6,10 @@ function squares(array) {
   return mySq;
 }
 
-
+function squares(array) {
+  // your code here
+  return array.map(num => num * num);
+}
 
 
 
